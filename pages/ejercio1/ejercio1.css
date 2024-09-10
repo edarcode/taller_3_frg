@@ -4,13 +4,13 @@
 }
 
 .logo {
-  width: 250px;
-  height: 250px;
+  width: 100px;
+  height: 100px;
 }
 
 .bandera {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   margin-left: auto;
 }
 
@@ -20,4 +20,55 @@
   color: grey;
   display: flex;
   gap: 16px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 16px;
+}
+
+.flor {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.listas {
+  display: grid;
+  gap: 16px;
+  background-color: grey;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.spotlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: end;
+  gap: 32px;
+}
+
+.article {
+  display: grid;
+}
+
+.article a {
+  justify-self: end;
+}
+
+.article figure {
+  margin: 0;
+}
+
+.spotlight figcaption {
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: grey;
+  padding: 16px;
 }
